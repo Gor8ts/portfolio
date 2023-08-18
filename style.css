@@ -1,0 +1,54 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: grey;
+}
+.block{
+    background-color: black;
+    width: 612px;
+    height: 792px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+.left-block{
+    background-color: rgb(68, 68, 215);
+    color: white;
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    
+}
+.right-block{
+    background-color: rgb(51, 51, 66);
+    color: white;
+    width: 70%;
+    height: 100%;
+    padding: 10px;
+}
+a{
+    color: white;
+    margin: 5px;
+}
+p{
+    margin: 5px;
+}
+.right-block h1, .right-block h3{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: lighter;
+}
+.right-block h3{
+    margin-top: 10px;
+}
+.from{
+    color: rgb(157, 156, 156);
+}
+.phone{
+    font-size: 15px;
+}
