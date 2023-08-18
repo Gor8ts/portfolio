@@ -1,0 +1,91 @@
+*{
+    /* border: 1px solid black; */
+    margin: auto;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+}
+body{
+    border: none;
+}
+h2{
+    border: none;
+    
+}
+form{
+    margin-top: 30px;
+    border: none;
+    width: 60%;
+    height: 20%;
+    background-color: rgb(245, 245, 245);
+    padding-left: 30px;
+    padding-top: 20px;
+    font: 1em sans-serif;
+}
+#color{
+    border-color: rgb(64, 176, 80);
+}
+#inv:invalid {
+  border: 1px solid red;
+  background-color: white
+}
+#v:valid {
+  border: 1px solid rgb(100, 231, 100);
+  background-color: white
+}
+.inputs input{
+    border-radius: 5px;
+    block-size: 40px;
+    border: 1px solid rgb(192, 192, 192);
+    
+}
+
+input{
+    cursor: pointer;
+}
+.green-light{
+    background-color: rgb(66, 173, 74);
+    border-radius: 5px;
+    block-size: 40px;
+    width: 12%;
+    border: none;
+}
+.green-hard{
+    background-color: rgb(43, 118, 49);
+    border-radius: 5px;
+    block-size: 40px;
+    width: 12%;
+    border: none;
+}
+.red-light{
+    background-color: rgb(229, 63, 97);
+    border-radius: 5px;
+    block-size: 40px;
+    width: 12%;
+    border: none;
+}
+.red-hard{
+    background-color: rgb(151, 41, 62);
+    border-radius: 5px;
+    block-size: 40px;
+    width: 12%;
+    border: none;
+    
+}
+.grey{
+    background-color: rgb(128, 128, 128);
+    border-radius: 5px;
+    block-size: 40px;
+    width: 12%;
+    border: none;
+}
+.radius-button{
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+}
+#r1[type="radio"]:checked{
+   background-color: rgb(66, 173, 74);
+   outline: none;
+   border-color:  rgb(66, 173, 74);
+}

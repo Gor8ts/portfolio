@@ -1,0 +1,44 @@
+.block{
+    
+    font-size: 20px;
+    text-align: center;
+    content: '';
+    border-bottom: 2px solid blue;
+    margin: 20px;
+}
+.block p{
+    text-align: start;
+}
+.block1{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+.block1 p{
+    text-align: start;
+}
+.block2 img{
+    margin-left: 20px;
+    width: 96%;
+}
+.block3{
+    font-size: 20px;
+    padding-top: 20px;
+    content: '';
+    border-top: 2px solid blue;
+    margin: 20px;
+}
+.block h1{
+    font-size: 40px;
+    margin-top: 70px;
+}
+.block h2{
+    font-size: 30px;
+}
+.block1 b{
+    font-size: 30px;
+}
+.block3 span{
+    color: rgb(160, 160, 231);
+    
+}

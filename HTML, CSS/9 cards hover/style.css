@@ -1,0 +1,98 @@
+body{
+    padding: 100px;
+}
+.container{
+    width: 900px;
+    height: 350px;
+    margin: auto;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.container-inner{
+    width: 22%;
+    height: 300px;
+    margin-top: 25px;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    box-shadow:2px 2px 10px black;
+    box-sizing: border-box;
+
+}
+.card-line{
+    width: 100%;
+    height: 5px;
+    margin-top: 10px;
+}
+/* #rouse::after{
+    content: "";
+    border: 2px solid rgb(199, 55, 86);
+    display: flex;
+    margin-top: 10px;
+} */
+/* #orange::after{ за допомогою псевдо елемента тільки видалено id з класу name
+    content: "";
+    border: 2px solid rgb(215, 145, 59);
+    display: flex;
+    margin-top: 10px;
+} */
+/* #blue::after{
+    content: "";
+    border: 2px solid rgb(43, 102, 136);
+    display: flex;
+    margin-top: 10px;
+} */
+/* .name::after{
+    content: "";
+    border: 2px solid rgb(99, 187, 52);
+    display: flex;
+    margin-top: 10px;
+} */
+p{
+    margin: 5px 5px;
+    font-weight: bold;
+    font-size:small;
+}
+h1{
+    margin: 10px 15px 5px 15px;
+    font-size: 40px;
+}
+p.grey{
+    color: rgb(198, 198, 198);
+    margin-bottom: 20px;
+}
+.name{
+    margin-top: 20px;
+    font-weight: 600;
+}
+.batton{
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.rouse{
+    background-color: rgb(199, 55, 86);
+}
+.orange{
+    background-color: rgb(215, 145, 59);
+}
+.blue{
+    background-color: rgb(43, 102, 136);
+}
+.green{
+    background-color: rgb(99, 187, 52);
+}
+.container-inner:hover{
+    width: 25%;
+    height: 100%;
+    margin: 0px -27px;
+    font-size: 170%;
+    box-shadow:4px 4px 20px rgb(33, 213, 66);
+}

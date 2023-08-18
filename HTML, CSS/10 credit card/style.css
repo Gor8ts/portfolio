@@ -1,0 +1,92 @@
+body{
+    background-color: white;
+}
+.fon{
+    background-color: rgb(240, 240, 240);
+    width: 950px;
+    height: 600px;
+    margin: auto;
+    /* margin-top: 100px; */
+    padding-top: 50px;
+}
+.credit-card{
+    width: 850px;
+    height: 550px;
+    background-color: rgb(159, 205, 205);
+    margin:auto;
+    border-radius: 25px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 25px;
+    
+}
+#num-size{
+    width: 450px;
+    height: 50px;
+    background-color: rgb(170, 210, 210);
+    border: none;
+    border-bottom: 3px solid rgb(129, 129, 129);
+    font-size: medium;
+}
+#name-size{
+    width: 450px;
+    height: 50px;
+    background-color: rgb(170, 210, 210);
+    border: none;
+    border-bottom: 3px solid rgb(129, 129, 129);
+}
+#cvv-cvn{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(170, 210, 210);
+    border: none;
+    border-bottom: 3px solid rgb(129, 129, 129);
+}
+#month{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(170, 210, 210);
+    border: none;
+    border-bottom: 3px solid rgb(129, 129, 129);
+}
+#year{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(170, 210, 210);
+    border: none;
+    border-bottom: 3px solid rgb(129, 129, 129);
+}
+label{
+    display: block;
+    position: relative;
+    top: 0px;
+}
+.heder{
+    padding: 10px;
+    background-color: orange;
+    width: 50%;
+}
+.cvv{
+
+    width: 40%;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+}
+.date-field{
+
+    width: 41%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+}
+.field{
+
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    
+}
+

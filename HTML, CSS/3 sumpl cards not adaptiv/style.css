@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #dcdedd;
+}
+
+.block1{
+    display: inline;
+   
+    background-color: rgb(186, 193, 197);
+    font-size: 90px;
+    margin: 5px;
+    
+}

@@ -1,0 +1,27 @@
+body{
+    margin: 70px;
+}
+.grey{
+    color: grey;
+}
+span{
+    color: rgb(95, 95, 249);
+}
+ol{
+    padding-left: 70px;
+}
+p{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.indent{
+    margin-top: 21.44px;
+    margin-bottom: 10px;
+}
+.block{
+    background-color: rgb(245, 245, 245);
+    padding: 40px;
+}
+h1{
+    font-size: 18px;
+}

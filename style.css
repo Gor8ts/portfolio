@@ -5,7 +5,7 @@ body{
     background-color: grey;
 }
 .block{
-    background-color: black;
+    background-color: white;
     width: 612px;
     height: 792px;
     margin: auto;
@@ -21,20 +21,24 @@ body{
     padding: 10px;
     display: flex;
     flex-direction: column;
-    align-items:start;
-    
+    align-items:start;  
+}
+.left-block a{
+    color: white;
+    margin: 5px;  
 }
 .right-block{
-    background-color: rgb(51, 51, 66);
-    color: white;
+    background-color: rgb(240, 209, 225);
+    color: rgb(58, 58, 58);
     width: 70%;
     height: 100%;
     padding: 10px;
 }
-a{
-    color: white;
-    margin: 5px;
+.right-block a{
+    color: rgb(58, 58, 58);
+    text-decoration-color: rgb(172, 172, 172);
 }
+
 p{
     margin: 5px;
 }
@@ -47,6 +51,7 @@ p{
     margin-top: 10px;
 }
 .from{
+    margin: 0;
     color: rgb(157, 156, 156);
 }
 .phone{

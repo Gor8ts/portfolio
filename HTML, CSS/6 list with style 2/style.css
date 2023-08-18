@@ -1,0 +1,39 @@
+body{
+    background-color: white;
+    padding: 100px 200px;    
+}
+ul{
+    background-color: rgb(245, 245, 245);
+}
+li{
+    list-style-type: none;
+    padding: 10px 50px;
+    position: relative;
+}
+li:nth-child(odd){
+    background-color: rgb(173, 216,279);
+}
+li:nth-child(even){
+    background-color: rgb(165, 204, 219);
+}
+li.color {
+    background-color: rgb(226, 226, 226);
+}
+.color img{
+    width: 15px;
+    padding-right: 15px;
+    padding-top: 2px;
+    
+}
+li img{
+    width: 12px;
+    padding-right: 15px;
+    
+}
+img.redcross{
+    padding-left: 15px;
+    width: 12px;
+}
+ul{
+    padding: 10px 50px;
+}

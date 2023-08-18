@@ -1,0 +1,38 @@
+table {
+    background-color: rgb(245, 245, 245);
+    border-collapse: collapse;
+    /* margin: auto; */
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+   
+    
+}
+td{
+    text-align: center;
+    
+}
+th{
+    padding: 10px;
+    background-color: rgb(173, 216, 229);
+    /* position: sticky; */
+    
+}
+tr:nth-child(even){
+    background-color: rgb(233, 233, 233);
+}
+.thead{
+    position: absolute;
+    
+}
+tr.fix_row{
+    position: sticky;
+    top: 0;
+    z-index: 1px;
+}
+th.fix_column{
+    position: sticky;
+    left: 0;
+    z-index: 1px;
+}
+
