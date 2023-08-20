@@ -1,22 +1,16 @@
 table {
     background-color: rgb(245, 245, 245);
     border-collapse: collapse;
-    /* margin: auto; */
     width: 1000px;
     height: 1000px;
-    position: relative;
-   
-    
+    position: relative;  
 }
 td{
     text-align: center;
-    
 }
 th{
     padding: 10px;
-    background-color: rgb(173, 216, 229);
-    /* position: sticky; */
-    
+    background-color: rgb(173, 216, 229);    
 }
 tr:nth-child(even){
     background-color: rgb(233, 233, 233);
@@ -42,4 +36,12 @@ th.fix_column{
     border-radius: 20px;
     margin-bottom: 10px;
     padding: 15px;
+}
+@media(max-width: 360px){
+    table{
+        width: 100%;
+    }
+    th{
+        padding: 0;
+    }
 }

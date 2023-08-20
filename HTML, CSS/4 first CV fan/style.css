@@ -13,3 +13,13 @@
     margin-top: 10px;
     padding: 15px;
 }
+@media(max-width: 360px){
+    *{
+        margin: 5px 5px;
+    }
+    
+    .block img{
+        margin-left: 0;
+        width: 100%;
+    }
+}

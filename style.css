@@ -63,3 +63,20 @@ p{
 .left-block h3{
     margin-left: 5px;
 }
+@media(max-width: 360px){
+    *{
+        font-size: medium;
+    }
+    .block{
+        width: 345px;
+        height: 950px;
+        padding: 0;
+    }
+    .left-block{
+        width: 35%;
+    }
+    .right-block{
+        width: 65%;
+    }
+
+}

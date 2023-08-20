@@ -28,30 +28,6 @@ body{
     height: 5px;
     margin-top: 10px;
 }
-/* #rouse::after{
-    content: "";
-    border: 2px solid rgb(199, 55, 86);
-    display: flex;
-    margin-top: 10px;
-} */
-/* #orange::after{ за допомогою псевдо елемента тільки видалено id з класу name
-    content: "";
-    border: 2px solid rgb(215, 145, 59);
-    display: flex;
-    margin-top: 10px;
-} */
-/* #blue::after{
-    content: "";
-    border: 2px solid rgb(43, 102, 136);
-    display: flex;
-    margin-top: 10px;
-} */
-/* .name::after{
-    content: "";
-    border: 2px solid rgb(99, 187, 52);
-    display: flex;
-    margin-top: 10px;
-} */
 p{
     margin: 5px 5px;
     font-weight: bold;
@@ -73,6 +49,7 @@ p.grey{
     margin-top: 15px;
     margin-left: 40px;
     margin-right: 40px;
+
     padding: 10px;
     border-radius: 5px;
     color: white;
@@ -103,4 +80,37 @@ p.grey{
     border-radius: 20px;
     margin-bottom: 10px;
     padding: 15px;
+}
+@media(max-width: 360px){
+    body{
+        padding: 0;
+        /* height: 100%; */
+    }
+    
+}
+@media(max-height: 360px){
+    body{
+        padding: 0;
+    }
+    #bback{
+        padding: 0;
+        margin-bottom: 1px;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    .container-inner{
+        margin: 5px;
+        /* height: 120%; */
+    }
+    .container-inner:hover{
+        font-size: 125%;
+        width: 23%;
+        height: 140%;
+        margin: 0 -25px;
+    }
+    .batton{
+        margin-bottom: 15px;
+    }
 }

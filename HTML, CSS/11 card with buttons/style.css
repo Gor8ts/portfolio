@@ -1,7 +1,5 @@
 *{
-    /* border: 1px solid black; */
     margin: auto;
-    /* margin-top: 10px; */
     margin-bottom: 10px;
 }
 body{
@@ -94,6 +92,27 @@ input{
     justify-content: center;
     background-color: chartreuse;
     border-radius: 20px;
-    margin-top: 10px;
     padding: 15px;
+}
+@media(max-width: 360px){
+    form{
+        width: 100%;
+        padding-left: 5px;
+        padding-top: 5px;
+        margin-top: 0;
+    }
+    .inputs input{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+        
+    }
+    textarea{
+        width: 95%;
+        box-sizing: border-box;
+    }
+    .size{
+        padding: 0;
+    }
+    
 }
