@@ -11,3 +11,11 @@ h3{
 h6{
     font-style: italic;
 }
+#bback{
+    display: flex;
+    justify-content: center;
+    background-color: chartreuse;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 15px;
+}
