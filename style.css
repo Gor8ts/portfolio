@@ -69,11 +69,14 @@ p{
     }
     .block{
         width: 345px;
-        height: 950px;
+        height: 1000px;
         padding: 0;
     }
     .left-block{
         width: 35%;
+    }
+    .left-block h3{
+        margin: 0 0 5px;
     }
     .right-block{
         width: 65%;
