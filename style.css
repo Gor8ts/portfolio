@@ -27,6 +27,9 @@ body{
     color: white;
     margin: 5px;  
 }
+.left-block h3{
+    margin: 0 0 10px;
+}
 .right-block{
     background-color: rgb(240, 209, 225);
     color: rgb(58, 58, 58);
